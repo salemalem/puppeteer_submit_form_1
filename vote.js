@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer'); //getting puppeteer
 let scrape = async () => {
     const browser = await puppeteer.launch({
         headless: true, // without opening browser
-        executablePath: 'C:/Users/KryaKrya/Desktop/pup/node_modules/puppeteer/.local-chromium/win64-674921/chrome-win/chrome.exe',
+        //executablePath: 'C:/Users/KryaKrya/Desktop/pup/node_modules/puppeteer/.local-chromium/win64-674921/chrome-win/chrome.exe',
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
     const page = await browser.newPage(); //opening new Page
