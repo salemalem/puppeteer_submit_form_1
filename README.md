@@ -13,6 +13,10 @@ or
 ```
 npm install
 ```
+### Executing
+```
+node vote.js
+```
 
 ### You need Node js to install and run Puppeteer.
 That's all.
